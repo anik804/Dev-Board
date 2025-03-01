@@ -11,8 +11,9 @@
         <!-- title -->
         <title>DevBoard</title>
     </head>
-    <body class="w-10/12 mx-auto">
-        <!-- Navbar Section -->
+    <body>
+        <section class="w-10/12 mx-auto my-3">
+                <!-- Navbar Section -->
         <section class="my-5">
             <div class="navbar shadow-md bg-slate-200 rounded-md">
                 <div class="flex-1 flex mx-3">
@@ -29,7 +30,7 @@
                     </div>
                     <div class="my-auto mx-3">
                         <div tabindex="0" role="button"
-                            class="btn btn-ghost btn-circle avatar">
+                            class="btn btn-ghost btn-circle avatar" id="colorBtn">
                             <div class="w-10 rounded-full">
                                 <img src="./assets/theme-btn.png" />
                             </div>
@@ -62,7 +63,7 @@
                         </div>
                         <div
                             class="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white flex items-center justify-center rounded-md cursor-pointer"
-                            role="button">
+                            role="button" id="dis-button">
                             <div class="flex items-center">
                                 <img src="./assets/board.png"
                                     class="w-11 h-11 mx-2">
@@ -265,5 +266,12 @@
                 </div>
             </div>
         </section>
+
+        </section>
+
+        <!-- Script Section -->
+        <script src="./script/connect1.js"></script>
+        <script src="./script/change-bg.js"></script>
+
     </body>
 </html>
