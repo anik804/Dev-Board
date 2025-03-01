@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css"
+            rel="stylesheet" type="text/css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <title>Document</title>
+    </head>
+    <body class="w-10/12 mx-auto">
+        <!-- Navbar Section -->
+        <section class="my-5">
+            <div class="navbar shadow-md bg-slate-200 rounded-md">
+                <div class="flex-1 flex mx-3">
+                    <img src="./assets/logo.png" class="w-10 h-10 my-auto">
+                    <h2 class="text-xl my-auto px-3">Dev<span
+                            class="font-bold">Board</span></h2>
+                </div>
+                <div class="flex gap-2">
+                    <div
+                        class="flex shadow-xl bg-yellow-100 rounded-md my-auto px-2 py-2">
+                        <img src="./assets/checkbox.png"
+                            class="w-5 h-5 my-auto">
+                        <h3 class="pl-3 font-bold text-2xl">23</h3>
+                    </div>
+                    <div class="my-auto mx-3">
+                        <div tabindex="0" role="button"
+                            class="btn btn-ghost btn-circle avatar">
+                            <div class="w-10 rounded-full">
+                                <img src="./assets/theme-btn.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- main section -->
+        <section class="my-5">
+            <!-- main div -->
+            <div class="flex gap-2 h-full">
+                <!-- Task Section -->
+                <div class="shadow-xl bg-purple-200 rounded-md w-4/5">
+                    <!-- 1st card section -->
+                    <div class="grid grid-cols-[1fr_2fr_1fr] h-32 gap-4 p-4">
+                        <div
+                            class="bg-gradient-to-r from-pink-500 to-yellow-500 text-white flex items-center justify-center rounded-md">
+                            <div class="flex justify-center items-center">
+                                <img src="./assets/checkbox.png"
+                                    class="w-6 h-6 mx-2">
+                                <div>
+                                    <h2 class="text-xl">Task Assigned </h2>
+                                    <p class="text-lg font-bold">04</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div
+                            class="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white flex items-center justify-center rounded-md cursor-pointer"
+                            role="button">
+                            <div class="flex items-center">
+                                <img src="./assets/board.png"
+                                    class="w-11 h-11 mx-2">
+                                <p class="text-xl">Discover Something New
+                                    Today!</p>
+                            </div>
+                        </div>
+                        <div
+                            class="text-white flex items-center justify-center rounded-md bg-gradient-to-r from-red-500 to-fuchsia-500">
+                            <div class="flex justify-center items-center gap-2">
+                                <img src="./assets/calender.png">
+                                <h2 class="font-bold">Wed , Jul 28 2025</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2nd card section -->
+                    <div class="p-4 grid grid-cols-3 gap-2">
+                        <!-- cards -->
+                        <div class="shadow-xl bg-red-400 rounded-md px-3 py-3">
+                            <div class="shadow-xl bg-white rounded-lg max-w-24">
+                                <h2 class="px-3 py-1">ShopEase</h2>
+                            </div>
+                            <div class="my-2">
+                                <h1 class=" font-bold">Fix Mobile Button Issue
+                                </h1>
+                            </div>
+                            <div class="my-2">
+                                <p class="font-mono">Debug using Chrome
+                                    DevTools, check for
+                                    overlapping elements, and ensure onClick
+                                    works properly and ensure onClick works
+                                    properly
+                                </p>
+                            </div>
+                            <div class="flex my-auto justify-between">
+                                <div class>
+                                    <h3>Deadline</p>
+                                    <h3 class="font-bold">21 March 2025</h3>
+                                </div>
+                                <div class="mx-4 my-auto">
+                                    <button
+                                        class="btn btn-success">Completed</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card -->
+                        <div class="shadow-xl bg-red-400 rounded-md px-3 py-3">
+                            <div class="shadow-xl bg-white rounded-lg max-w-24">
+                                <h2 class="px-3 py-1">CloudSync</h2>
+                            </div>
+                            <div class="my-2">
+                                <h1 class=" font-bold">Add Dark Mode</h1>
+                            </div>
+                            <div class="my-2">
+                                <p class="font-mono">Store the user's preference
+                                    in localStorage, update CSS variables
+                                    dynamically, and apply a smooth transition
+                                    effect.
+                                </p>
+                            </div>
+                            <div class="flex my-auto justify-between">
+                                <div>
+                                    <h3>Deadline</p>
+                                    <h3 class="font-bold">21 March 2025</h3>
+                                </div>
+                                <div class="mx-4 my-auto">
+                                    <button
+                                        class="btn btn-success">Completed</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card -->
+                        <div class="shadow-xl bg-red-400 rounded-md px-3 py-3">
+                            <div class="shadow-xl bg-white rounded-lg max-w-24">
+                                <h2 class="px-3 py-1">SwiftPay</h2>
+                            </div>
+                            <div class="my-2">
+                                <h1 class=" font-bold">Optimize Home page
+                                </h1>
+                            </div>
+                            <div class="my-2">
+                                <p class="font-mono">Debug using Chrome
+                                    DevTools, check for overlapping elements,
+                                    and ensure onClick works properly
+                                </p>
+                            </div>
+                            <div class="flex my-8 justify-between">
+                                <div>
+                                    <h3>Deadline</p>
+                                    <h3 class="font-bold">21 March 2025</h3>
+                                </div>
+                                <div class="mx-4 my-auto">
+                                    <button
+                                        class="btn btn-success">Completed</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3rd card section -->
+                    <div class="p-4 grid grid-cols-3 gap-2">
+                        <!-- cards -->
+                        <div class="shadow-xl bg-red-400 rounded-md px-3 py-3">
+                            <div class="shadow-xl bg-white rounded-lg max-w-16">
+                                <h2 class="px-3 py-1">Meta</h2>
+                            </div>
+                            <div class="my-2">
+                                <h1 class=" font-bold">Add new emoji 🤲
+                                </h1>
+                            </div>
+                            <div class="my-2">
+                                <p class="font-mono">Debug using Chrome
+                                    DevTools, check for
+                                    overlapping elements, and ensure onClick
+                                    works properly and ensure onClick works
+                                    properly
+                                </p>
+                            </div>
+                            <div class="flex my-auto justify-between">
+                                <div class>
+                                    <h3>Deadline</p>
+                                    <h3 class="font-bold">21 March 2025</h3>
+                                </div>
+                                <div class="mx-4 my-auto">
+                                    <button
+                                        class="btn btn-success">Completed</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card -->
+                        <div class="shadow-xl bg-red-400 rounded-md px-3 py-3">
+                            <div class="shadow-xl bg-white rounded-lg max-w-27">
+                                <h2 class="px-3 py-1">Google LLC</h2>
+                            </div>
+                            <div class="my-2">
+                                <h1 class=" font-bold">Integrate OpenAI API</h1>
+                            </div>
+                            <div class="my-2">
+                                <p class="font-mono">Store the user's preference
+                                    in localStorage, update CSS variables
+                                    dynamically, and apply a smooth transition
+                                    effect.
+                                </p>
+                            </div>
+                            <div class="flex my-auto justify-between">
+                                <div>
+                                    <h3>Deadline</p>
+                                    <h3 class="font-bold">21 March 2025</h3>
+                                </div>
+                                <div class="mx-4 my-auto">
+                                    <button
+                                        class="btn btn-success">Completed</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card -->
+                        <div class="shadow-xl bg-red-400 rounded-md px-3 py-3">
+                            <div class="shadow-xl bg-white rounded-lg max-w-24">
+                                <h2 class="px-3 py-1">Glassdoar</h2>
+                            </div>
+                            <div class="my-2">
+                                <h1 class=" font-bold">Improve Job searching 
+                                </h1>
+                            </div>
+                            <div class="my-2">
+                                <p class="font-mono">Debug using Chrome
+                                    DevTools, check for overlapping elements,
+                                    and ensure onClick works properly
+                                </p>
+                            </div>
+                            <div class="flex my-8 justify-between">
+                                <div>
+                                    <h3>Deadline</p>
+                                    <h3 class="font-bold">21 March 2025</h3>
+                                </div>
+                                <div class="mx-4 my-auto">
+                                    <button
+                                        class="btn btn-success">Completed</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Activity Section -->
+                <div class="shadow-xl bg-green-200 rounded-md w-1/5">
+                    <div class="flex justify-center my-3">
+                        <img src="./assets/activity.png" class="px-2 py-2">
+                        <h1 class="px-2 py-2 font-bold">Activity Log</h1>
+                    </div>
+                    <div class="flex items-center justify-center my-3">
+                        <button class="btn btn-active btn-warning">Clear
+                            History</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
